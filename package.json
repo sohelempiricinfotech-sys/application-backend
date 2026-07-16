@@ -1,0 +1,13 @@
+{
+  "name": "application-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mock third-party API inventory fixture for lifecycle workflow testing",
+  "dependencies": {
+    "@examplecrm/sdk": "4.2.1",
+    "@shopify/shopify-api": "11.12.0",
+    "aws-sdk": "2.1530.0",
+    "stripe": "16.8.0",
+    "twilio": "5.4.0"
+  }
+}
