@@ -1,0 +1,13 @@
+openapi: 3.0.3
+info: { title: External Webhook Fixture, version: 1.0.0 }
+paths:
+  /stripe/webhook:
+    post:
+      x-external-provider: Stripe
+      x-api-version: '2024-04-10'
+      responses: { '200': { description: ok } }
+  /twilio/verify:
+    post:
+      x-external-provider: Twilio Verify
+      x-api-version: v2
+      responses: { '202': { description: accepted } }
