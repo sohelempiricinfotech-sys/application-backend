@@ -1,0 +1,7 @@
+name: Integration API checks
+on: [workflow_dispatch]
+jobs:
+  external-api-check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -sS https://api.stripe.com/v1/balance -H 'Stripe-Version: 2024-04-10'
