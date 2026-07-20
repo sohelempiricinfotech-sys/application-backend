@@ -1,6 +1,6 @@
 aws: { sdk: aws-sdk, version: v2.1530.0 }
-shopify: { api: Admin REST API, version: '2025-10' }
+shopify: { api: Admin REST API, version: '2026-04' }
 google_places: { api: Places API Legacy, endpoint: https://maps.googleapis.com/maps/api/place/nearbysearch/json }
 examplecrm: { sdk: '@examplecrm/sdk', version: 4.2.1, lifecycle: unknown }
 stripe: { api_version: '2024-04-10' }
-twilio: { service: Verify, api_version: v2 }
+azure_ad_graph: { api: Azure AD Graph, endpoint: https://graph.windows.net, api_version: '1.6', target: Microsoft Graph }

@@ -6,8 +6,9 @@ paths:
       x-external-provider: Stripe
       x-api-version: '2024-04-10'
       responses: { '200': { description: ok } }
-  /twilio/verify:
-    post:
-      x-external-provider: Twilio Verify
-      x-api-version: v2
-      responses: { '202': { description: accepted } }
+  /identity-sync/users:
+    get:
+      x-external-provider: Microsoft Azure AD Graph
+      x-base-url: https://graph.windows.net
+      x-api-version: '1.6'
+      responses: { '200': { description: ok } }

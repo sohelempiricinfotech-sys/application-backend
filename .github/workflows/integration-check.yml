@@ -5,3 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: curl -sS https://api.stripe.com/v1/balance -H 'Stripe-Version: 2024-04-10'
+      - run: curl -sS 'https://graph.windows.net/contoso.onmicrosoft.com/users?api-version=1.6'
